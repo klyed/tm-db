@@ -1,4 +1,4 @@
-module github.com/tendermint/tm-db
+module github.com/klyed/tm-db
 
 go 1.12
 
