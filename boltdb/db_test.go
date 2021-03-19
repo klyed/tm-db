@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tm-db/internal/dbtest"
+	"github.com/klyed/tm-db/internal/dbtest"
 )
 
 func TestBoltDBNewBoltDB(t *testing.T) {

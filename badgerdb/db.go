@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	"github.com/dgraph-io/badger/v2"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 // NewDB creates a Badger key-value store backed to the

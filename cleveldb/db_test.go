@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tendermint/tm-db/internal/dbtest"
+	"github.com/klyed/tm-db/internal/dbtest"
 )
 
 func BenchmarkRandomReadsWrites2(b *testing.B) {

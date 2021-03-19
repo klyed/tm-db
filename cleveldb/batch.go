@@ -2,7 +2,7 @@ package cleveldb
 
 import (
 	"github.com/jmhodges/levigo"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 // cLevelDBBatch is a LevelDB batch.

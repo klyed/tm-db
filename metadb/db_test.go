@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tendermint/tm-db/internal/dbtest"
+	"github.com/klyed/tm-db/internal/dbtest"
 )
 
 func TestDBIteratorSingleKey(t *testing.T) {

@@ -3,8 +3,8 @@
 package metadb
 
 import (
-	tmdb "github.com/tendermint/tm-db"
-	"github.com/tendermint/tm-db/cleveldb"
+	tmdb "github.com/klyed/tm-db"
+	"github.com/klyed/tm-db/cleveldb"
 )
 
 func clevelDBCreator(name string, dir string) (tmdb.DB, error) {

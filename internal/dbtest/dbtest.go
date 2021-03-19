@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 //----------------------------------------

@@ -9,9 +9,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	db "github.com/tendermint/tm-db"
-	"github.com/tendermint/tm-db/metadb"
-	protodb "github.com/tendermint/tm-db/remotedb/proto"
+	db "github.com/klyed/tm-db"
+	"github.com/klyed/tm-db/metadb"
+	protodb "github.com/klyed/tm-db/remotedb/proto"
 )
 
 // ListenAndServe is a blocking function that sets up a gRPC based
@@ -59,7 +59,7 @@ var _ protodb.DBServer = (*server)(nil)
 //  * fsdb
 //  * memdB
 //  * goleveldb
-// See https://godoc.org/github.com/tendermint/tendermint/libs/db#BackendType
+// See https://godoc.org/github.com/klyed/tendermint/libs/db#BackendType
 func (s *server) Init(ctx context.Context, in *protodb.Init) (*protodb.Entity, error) {
 	s.mu.Lock()
 	defer s.mu.Unlock()

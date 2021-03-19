@@ -8,7 +8,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 type GoLevelDB struct {

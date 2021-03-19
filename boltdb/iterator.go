@@ -3,7 +3,7 @@ package boltdb
 import (
 	"bytes"
 
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 	"go.etcd.io/bbolt"
 )
 

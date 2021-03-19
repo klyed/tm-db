@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	tmdb "github.com/tendermint/tm-db"
-	"github.com/tendermint/tm-db/remotedb/grpcdb"
-	protodb "github.com/tendermint/tm-db/remotedb/proto"
+	tmdb "github.com/klyed/tm-db"
+	"github.com/klyed/tm-db/remotedb/grpcdb"
+	protodb "github.com/klyed/tm-db/remotedb/proto"
 )
 
 type RemoteDB struct {

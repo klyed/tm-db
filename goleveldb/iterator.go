@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/syndtr/goleveldb/leveldb/iterator"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 type goLevelDBIterator struct {

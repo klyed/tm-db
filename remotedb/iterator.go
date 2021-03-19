@@ -1,8 +1,8 @@
 package remotedb
 
 import (
-	tmdb "github.com/tendermint/tm-db"
-	protodb "github.com/tendermint/tm-db/remotedb/proto"
+	tmdb "github.com/klyed/tm-db"
+	protodb "github.com/klyed/tm-db/remotedb/proto"
 )
 
 func makeIterator(dic protodb.DB_IteratorClient) tmdb.Iterator {

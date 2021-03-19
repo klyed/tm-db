@@ -6,7 +6,7 @@ import (
 
 	"github.com/jmhodges/levigo"
 
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 // CLevelDB uses the C LevelDB database via a Go wrapper.

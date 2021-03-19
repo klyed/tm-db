@@ -1,14 +1,14 @@
 # Tendermint DB 
 
-[![version](https://img.shields.io/github/tag/tendermint/tm-db.svg)](https://github.com/tendermint/tm-db/releases/latest)
-[![license](https://img.shields.io/github/license/tendermint/tm-db.svg)](https://github.com/tendermint/tm-db/blob/master/LICENSE)
-[![API Reference](https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667)](https://pkg.go.dev/github.com/tendermint/tm-db)
+[![version](https://img.shields.io/github/tag/tendermint/tm-db.svg)](https://github.com/klyed/tm-db/releases/latest)
+[![license](https://img.shields.io/github/license/tendermint/tm-db.svg)](https://github.com/klyed/tm-db/blob/master/LICENSE)
+[![API Reference](https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667)](https://pkg.go.dev/github.com/klyed/tm-db)
 [![codecov](https://codecov.io/gh/tendermint/tm-db/branch/master/graph/badge.svg)](https://codecov.io/gh/tendermint/tm-db)
-![Lint](https://github.com/tendermint/tm-db/workflows/Lint/badge.svg?branch=master)
-![Test](https://github.com/tendermint/tm-db/workflows/Test/badge.svg?branch=master)
+![Lint](https://github.com/klyed/tm-db/workflows/Lint/badge.svg?branch=master)
+![Test](https://github.com/klyed/tm-db/workflows/Test/badge.svg?branch=master)
 [![Discord chat](https://img.shields.io/discord/669268347736686612.svg)](https://discord.gg/AzefAFd)
 
-Common database interface for various database backends. Primarily meant for applications built on [Tendermint](https://github.com/tendermint/tendermint), such as the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk), but can be used independently of these as well.
+Common database interface for various database backends. Primarily meant for applications built on [Tendermint](https://github.com/klyed/tendermint), such as the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk), but can be used independently of these as well.
 
 ### Minimum Go Version
 
@@ -18,7 +18,7 @@ Go 1.13+
 
 - **[GoLevelDB](https://github.com/syndtr/goleveldb) [stable]**: A pure Go implementation of [LevelDB](https://github.com/google/leveldb) (see below). Currently the default on-disk database used in the Cosmos SDK.
 
-- **MemDB [stable]:** An in-memory database using [Google's B-tree package](https://github.com/google/btree). Has very high performance both for reads, writes, and range scans, but is not durable and will lose all data on process exit. Does not support transactions. Suitable for e.g. caches, working sets, and tests. Used for [IAVL](https://github.com/tendermint/iavl) working sets when the pruning strategy allows it.
+- **MemDB [stable]:** An in-memory database using [Google's B-tree package](https://github.com/google/btree). Has very high performance both for reads, writes, and range scans, but is not durable and will lose all data on process exit. Does not support transactions. Suitable for e.g. caches, working sets, and tests. Used for [IAVL](https://github.com/klyed/iavl) working sets when the pruning strategy allows it.
 
 - **[LevelDB](https://github.com/google/leveldb) [experimental]:** A [Go wrapper](https://github.com/jmhodges/levigo) around [LevelDB](https://github.com/google/leveldb). Uses LSM-trees for on-disk storage, which have good performance for write-heavy workloads, particularly on spinning disks, but requires periodic compaction to maintain decent read performance and reclaim disk space. Does not support transactions.
 

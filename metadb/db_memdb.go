@@ -3,8 +3,8 @@
 package metadb
 
 import (
-	tmdb "github.com/tendermint/tm-db"
-	"github.com/tendermint/tm-db/memdb"
+	tmdb "github.com/klyed/tm-db"
+	"github.com/klyed/tm-db/memdb"
 )
 
 func memdbDBCreator(name, dir string) (tmdb.DB, error) {

@@ -3,8 +3,8 @@ package remotedb
 import (
 	"fmt"
 
-	tmdb "github.com/tendermint/tm-db"
-	protodb "github.com/tendermint/tm-db/remotedb/proto"
+	tmdb "github.com/klyed/tm-db"
+	protodb "github.com/klyed/tm-db/remotedb/proto"
 )
 
 type batch struct {

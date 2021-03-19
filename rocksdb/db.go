@@ -6,7 +6,7 @@ import (
 	"runtime"
 
 	"github.com/tecbot/gorocksdb"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 // RocksDB is a RocksDB backend.

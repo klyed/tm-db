@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/jmhodges/levigo"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 // cLevelDBIterator is a cLevelDB iterator.

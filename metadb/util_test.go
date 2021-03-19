@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	tmdb "github.com/tendermint/tm-db"
-	"github.com/tendermint/tm-db/internal/dbtest"
+	tmdb "github.com/klyed/tm-db"
+	"github.com/klyed/tm-db/internal/dbtest"
 )
 
 // Empty iterator for empty db.

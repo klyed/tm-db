@@ -5,7 +5,7 @@ import (
 	"context"
 
 	"github.com/google/btree"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 const (

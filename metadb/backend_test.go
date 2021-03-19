@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	tmdb "github.com/tendermint/tm-db"
-	"github.com/tendermint/tm-db/cleveldb"
-	"github.com/tendermint/tm-db/goleveldb"
-	"github.com/tendermint/tm-db/internal/dbtest"
-	"github.com/tendermint/tm-db/memdb"
-	"github.com/tendermint/tm-db/rocksdb"
+	tmdb "github.com/klyed/tm-db"
+	"github.com/klyed/tm-db/cleveldb"
+	"github.com/klyed/tm-db/goleveldb"
+	"github.com/klyed/tm-db/internal/dbtest"
+	"github.com/klyed/tm-db/memdb"
+	"github.com/klyed/tm-db/rocksdb"
 )
 
 // Register a test backend for PrefixDB as well, with some unrelated junk data

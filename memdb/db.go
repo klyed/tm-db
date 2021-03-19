@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/google/btree"
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 const (
@@ -135,7 +135,7 @@ func (db *MemDB) DeleteSync(key []byte) error {
 func (db *MemDB) Close() error {
 	// Close is a noop since for an in-memory database, we don't have a destination to flush
 	// contents to nor do we want any data loss on invoking Close().
-	// See the discussion in https://github.com/tendermint/tendermint/libs/pull/56
+	// See the discussion in https://github.com/klyed/tendermint/libs/pull/56
 	return nil
 }
 

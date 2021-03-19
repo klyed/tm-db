@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/klyed/tm-db"
 )
 
 type BackendType string

@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	tmdb "github.com/tendermint/tm-db"
-	"github.com/tendermint/tm-db/internal/dbtest"
-	"github.com/tendermint/tm-db/memdb"
+	tmdb "github.com/klyed/tm-db"
+	"github.com/klyed/tm-db/internal/dbtest"
+	"github.com/klyed/tm-db/memdb"
 )
 
 func mockDBWithStuff(t *testing.T) tmdb.DB {
